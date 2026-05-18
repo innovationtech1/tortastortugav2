@@ -11,8 +11,13 @@
 <body>
     <header class="header">
         <div class="logo">🐢 Tortas Tortuga</div>
-        <div class="cart-icon" id="cart-icon">
-            🛒 <span id="cart-count">0</span>
+        <div class="header-actions">
+            <button class="clear-cart-btn" id="clear-cart-btn" onclick="limpiarCarrito()" style="display:none;" title="Vaciar carrito">
+                🗑️ Vaciar
+            </button>
+            <div class="cart-icon" id="cart-icon">
+                🛒 <span id="cart-count">0</span>
+            </div>
         </div>
     </header>
 

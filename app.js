@@ -72,6 +72,8 @@ window.removeFromCart = removeFromCart;
 
 function updateCart() {
     cartCount.innerText = cart.length;
+    const clearBtn = document.getElementById('clear-cart-btn');
+    if (clearBtn) clearBtn.style.display = cart.length > 0 ? 'flex' : 'none';
 
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = '<p class="empty-cart">Tu carrito está vacío 🥺</p>';
@@ -186,6 +188,18 @@ function confirmarConMods(conMods) {
     cartIcon.style.transform = 'scale(1.2)';
     setTimeout(() => cartIcon.style.transform = 'scale(1)', 200);
 }
+
+// ─── LIMPIAR CARRITO ────────────────────────────────────────────────────────
+
+function limpiarCarrito() {
+    if (cart.length === 0) return;
+    if (confirm(`¿Vaciar el carrito? Se quitarán los ${cart.length} artículo(s).`)) {
+        cart = [];
+        updateCart();
+    }
+}
+
+window.limpiarCarrito = limpiarCarrito;
 
 // ─── TABS DE UBICACIÓN ───────────────────────────────────────────────────────
 
