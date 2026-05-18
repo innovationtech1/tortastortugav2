@@ -23,115 +23,100 @@
         </section>
 
         <section class="menu" id="menu-container">
-            <!-- Torta 1: La Original -->
+
+            <!-- 1. Original Torta Tortuga -->
             <div class="product-card">
-                <h3 class="product-title">1. La Original</h3>
-                <p class="product-desc">Nuestra torta clásica con receta original de carnes frías. Incluye aguacate, cebolla, tomate, lechuga, queso y mayo.</p>
+                <h3 class="product-title">1. Original Torta Tortuga</h3>
+                <p class="product-desc">1 Whole Avocado, 3 Meats (Ham, Pork Head Cheese &amp; Turkey), Tomato, Onions, Mayo and Queso Fresco. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
                 <select class="size-selector" id="select-original">
-                    <option value="14">3 Rebanadas - $14</option>
-                    <option value="16">6 Rebanadas - $16</option>
-                    <option value="17">10 Rebanadas - $17</option>
+                    <option value="14">C — Combo Single Meat · 3 Slices - $14</option>
+                    <option value="16">B — Combo Double Meat · 6 Slices - $16</option>
+                    <option value="18">A — Combo Triple Meat · 9 Slices - $18</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('original', '1. La Original')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('original', '1. Original Torta Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 2: Pavo -->
+            <!-- 2. Turkey Tortuga -->
             <div class="product-card">
-                <h3 class="product-title">2. Pavo</h3>
-                <p class="product-desc">Una opción más ligera pero igual de deliciosa con exquisito jamón de pavo. Incluye vegetales frescos.</p>
+                <h3 class="product-title">2. Turkey Tortuga</h3>
+                <p class="product-desc">1 Whole Avocado, Turkey Ham, Tomato, Onions, Mayo and Queso Fresco. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-pavo">
-                    <option value="14">3 Rebanadas - $14</option>
-                    <option value="16">6 Rebanadas - $16</option>
-                    <option value="17">10 Rebanadas - $17</option>
+                <select class="size-selector" id="select-turkey">
+                    <option value="14">C — Combo Single Meat · 3 Slices - $14</option>
+                    <option value="16">B — Combo Double Meat · 6 Slices - $16</option>
+                    <option value="18">A — Combo Triple Meat · 9 Slices - $18</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('pavo', '2. Pavo')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('turkey', '2. Turkey Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 3: Puerco -->
+            <!-- 3. Pork Tortuga -->
             <div class="product-card">
-                <h3 class="product-title">3. Puerco</h3>
-                <p class="product-desc">Para los que buscan un sabor más intenso con nuestro jamón de puerco horneado y vegetales frescos.</p>
+                <h3 class="product-title">3. Pork Tortuga</h3>
+                <p class="product-desc">1 Whole Avocado, Pork Head Cheese, Tomato, Onions, Mayo and Queso Fresco. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-puerco">
-                    <option value="14">3 Rebanadas - $14</option>
-                    <option value="16">6 Rebanadas - $16</option>
-                    <option value="17">10 Rebanadas - $17</option>
+                <select class="size-selector" id="select-pork">
+                    <option value="14">C — Combo Single Meat · 4 Slices - $14</option>
+                    <option value="16">B — Combo Double Meat · 8 Slices - $16</option>
+                    <option value="18">A — Combo Triple Meat · 12 Slices - $18</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('puerco', '3. Puerco')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('pork', '3. Pork Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 4: Camarones con Jamón -->
+            <!-- 4. Shrimp Tortuga -->
             <div class="product-card">
-                <h3 class="product-title">4. Camarones con Jamón</h3>
-                <p class="product-desc">Una deliciosa combinación de mar y tierra con jugosos camarones, nuestro tradicional jamón y vegetales frescos.</p>
+                <div class="product-badge badge-special">🍤 Especial</div>
+                <h3 class="product-title">4. Shrimp Tortuga</h3>
+                <p class="product-desc">1 Whole Avocado, 3 Meats with Shrimp — Turkey, Ham and Pork Head Cheese, Mayo and Cheese. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-camarones">
-                    <option value="15">3 Rebanadas - $15</option>
-                    <option value="17">6 Rebanadas - $17</option>
-                    <option value="18">10 Rebanadas - $18</option>
+                <select class="size-selector" id="select-shrimp">
+                    <option value="17">A — Combo Single · 3 Slices + 5 Shrimp - $17</option>
+                    <option value="20">B — Combo Double Shrimp · 3 Slices + 10 Shrimp - $20</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('camarones', '4. Camarones con Jamón')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('shrimp', '4. Shrimp Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 5: Vegetariana -->
+            <!-- 5. All Meat Tortuga -->
             <div class="product-card">
-                <div class="product-badge badge-veg">🌱 Vegetariana</div>
-                <h3 class="product-title">5. La Jardín</h3>
-                <p class="product-desc">Aguacate cremoso, queso panela derretido, rajas de chile poblano, champiñones salteados, espinaca fresca, tomate, cebolla morada y aderezo de limón. ¡Fresca y llena de sabor!</p>
+                <div class="product-badge badge-meat">🥩 All Meat</div>
+                <h3 class="product-title">5. All Meat Tortuga</h3>
+                <p class="product-desc">3 Meats — Turkey, Ham and Pork Head Cheese, Mayo and Cheese. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-jardin">
-                    <option value="14">3 Rebanadas - $14</option>
-                    <option value="16">6 Rebanadas - $16</option>
-                    <option value="17">10 Rebanadas - $17</option>
+                <select class="size-selector" id="select-allmeat">
+                    <option value="14">C — Combo Single Meat · 6 Slices - $14</option>
+                    <option value="16">B — Combo Double Meat · 9 Slices - $16</option>
+                    <option value="18">A — Combo Triple Meat · 12 Slices - $18</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('jardin', '5. La Jardín')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('allmeat', '5. All Meat Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 6: Solo Carne -->
+            <!-- 6. Vegan Tortuga -->
             <div class="product-card">
-                <div class="product-badge badge-meat">🥩 Solo Carne</div>
-                <h3 class="product-title">6. La Carnívora</h3>
-                <p class="product-desc">Triple amenaza de carnes: jamón de pierna, chorizo y tocino crujiente, todo en una sola torta. Con jalapeños toreados, cebolla caramelizada y crema. Para los verdaderos carnívoros.</p>
+                <div class="product-badge badge-veg">🌱 Vegan</div>
+                <h3 class="product-title">6. Vegan Tortuga</h3>
+                <p class="product-desc">1½ Avocado, Mayo, Tomato and Onions. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-carnivora">
-                    <option value="16">3 Rebanadas - $16</option>
-                    <option value="18">6 Rebanadas - $18</option>
-                    <option value="20">10 Rebanadas - $20</option>
+                <select class="size-selector" id="select-vegan">
+                    <option value="14">Combo Single - $14</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('carnivora', '6. La Carnívora')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('vegan', '6. Vegan Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 7: Milanesa -->
+            <!-- 7. Kids Tortuga -->
             <div class="product-card">
-                <div class="product-badge badge-special">⭐ Especial</div>
-                <h3 class="product-title">7. La Milanesa</h3>
-                <p class="product-desc">Milanesa de res apanada y dorada a la perfección, con aguacate, jitomate, lechuga, crema y queso Chihuahua. Un clásico que nunca decepciona, con nuestro toque Tortuga.</p>
+                <div class="product-badge badge-breakfast">👧 Kids</div>
+                <h3 class="product-title">7. Kids Tortuga</h3>
+                <p class="product-desc">Ham and Mayo. Specially made for the little ones. <em>$1 OFF for Torta a La Carte.</em></p>
                 <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-milanesa">
-                    <option value="15">3 Rebanadas - $15</option>
-                    <option value="17">6 Rebanadas - $17</option>
-                    <option value="19">10 Rebanadas - $19</option>
+                <select class="size-selector" id="select-kids">
+                    <option value="9">A — Combo Single Meat · 3 Slices - $9</option>
+                    <option value="11">B — Combo Double Meat · 6 Slices - $11</option>
+                    <option value="13">C — Combo Triple Meat · 9 Slices - $13</option>
                 </select>
-                <button class="add-to-cart" onclick="addToCart('milanesa', '7. La Milanesa')">Agregar al Pedido</button>
+                <button class="add-to-cart" onclick="addToCart('kids', '7. Kids Tortuga')">Agregar al Pedido</button>
             </div>
 
-            <!-- Torta 8: El Madrugador -->
-            <div class="product-card">
-                <div class="product-badge badge-breakfast">🌅 Desayuno</div>
-                <h3 class="product-title">8. El Madrugador</h3>
-                <p class="product-desc">Chorizo de San Manuel, huevo estrellado, frijoles negros refritos, queso Oaxaca derretido, aguacate y salsa verde casera. La torta perfecta para empezar el día con energía.</p>
-                <div class="product-includes">✅ Incluye Chips y Refresco</div>
-                <select class="size-selector" id="select-madrugador">
-                    <option value="14">3 Rebanadas - $14</option>
-                    <option value="16">6 Rebanadas - $16</option>
-                    <option value="18">10 Rebanadas - $18</option>
-                </select>
-                <button class="add-to-cart" onclick="addToCart('madrugador', '8. El Madrugador')">Agregar al Pedido</button>
-            </div>
         </section>
-    </main>
 
     <!-- Modal Carrito -->
     <div class="modal-overlay" id="cart-modal">
